@@ -7,3 +7,51 @@ body {
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
+/* Nav styles  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 50px auto;
+}
+.logo h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.logo h1 span {
+  background: linear-gradient(#ff42a5 13.13%, #ff42a5 87.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-item a {
+  text-decoration: none;
+}
+.item a {
+  margin-left: 20px;
+}
+.nav-logo {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  margin-left: 20px;
+  padding: 10px 20px;
+}
+.fa-youtube {
+  color: #f61c0d;
+}
+.fa-tiktok {
+}
