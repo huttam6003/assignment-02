@@ -6,6 +6,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
+  margin: 0 20px;
 }
 /* Nav styles  */
 nav {
@@ -52,6 +53,4 @@ nav {
 }
 .fa-youtube {
   color: #f61c0d;
-}
-.fa-tiktok {
 }
