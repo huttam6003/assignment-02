@@ -8,6 +8,19 @@ body {
   font-family: "Work Sans", sans-serif;
   margin: 0 20px;
 }
+.primary-btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+}
+.secondary-btn {
+  background: #4ec5f7;
+}
 /* Nav styles  */
 nav {
   display: flex;
@@ -53,4 +66,53 @@ nav {
 }
 .fa-youtube {
   color: #f61c0d;
+}
+
+/* banner section style  */
+.banner {
+  display: flex;
+  max-width: 1300px;
+  margin: auto;
+}
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-image: url(images/Group\14.png);
+}
+.banner-text h2 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-text h3 {
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.banner-icon p {
+  margin-left: 10px;
+}
+.banner-text p {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+}
+.banner-img {
+  width: 50%;
+}
+.banner img {
+  width: 100%;
 }

@@ -1,4 +1,4 @@
-/* Mobile Device  */
+/* Mobile Device Styles */
 @media screen and (max-width: 676px) {
   nav {
     flex-direction: column;
@@ -15,4 +15,19 @@
   .item a {
     margin-bottom: 20px;
   }
+  /* banner section styles  */
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-text {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .banner-img {
+    width: 100%;
+  }
+}
+
+/* Tablet Device Styles  */
+@media screen and (min-width: 677px) and (max-width: 992px) {
 }
