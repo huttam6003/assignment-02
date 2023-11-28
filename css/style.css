@@ -8,6 +8,24 @@ body {
   font-family: "Work Sans", sans-serif;
   margin: 0 20px;
 }
+.primary-text {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.secondary-text {
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.text-color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .primary-btn {
   color: #fff;
   font-size: 20px;
@@ -74,6 +92,7 @@ nav {
   max-width: 1300px;
   margin: auto;
 }
+
 .banner-text {
   display: flex;
   flex-direction: column;
@@ -92,10 +111,6 @@ nav {
   font-size: 95px;
   font-weight: 800;
   text-transform: uppercase;
-  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .banner-icon {
   display: flex;
@@ -115,4 +130,31 @@ nav {
 }
 .banner img {
   width: 100%;
+}
+
+main {
+  max-width: 1300px;
+  margin: 50px auto;
+}
+/* Online Game section styles */
+
+.card-con {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 24%;
+}
+.card-con img {
+  width: 100%;
+  height: 80%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.card img:hover {
+  border-radius: 16px;
+  border: 4px solid #ff42a5;
+  background: linear-gradient
+    (0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
 }

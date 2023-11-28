@@ -26,8 +26,38 @@
   .banner-img {
     width: 100%;
   }
+  /* online game section  */
+  .card-con {
+    flex-direction: column;
+  }
+  .card {
+    width: 80%;
+    margin: 0 auto 50px;
+  }
+  .card-con img {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
 }
+
+/* Online game section  */
 
 /* Tablet Device Styles  */
 @media screen and (min-width: 677px) and (max-width: 992px) {
+  .card-con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    width: 90%;
+    margin: 0 auto 50px;
+  }
+  .card-con img {
+    width: 100%;
+    height: 90%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
 }
