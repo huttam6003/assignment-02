@@ -40,6 +40,21 @@
     margin-bottom: 20px;
     border-radius: 10px;
   }
+  /* Play Instantly section  */
+  .play-instantly {
+    flex-direction: column-reverse;
+  }
+  .play-instantly-img-con {
+    width: 100%;
+  }
+  .play-instantly-text-con {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .play-img-2 {
+    bottom: 25vw;
+    left: 52vw;
+  }
 }
 
 /* Online game section  */

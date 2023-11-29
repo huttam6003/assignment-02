@@ -158,3 +158,31 @@ main {
   background: linear-gradient
     (0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
 }
+
+/* Play Instantly section style  */
+.play-instantly {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.play-instantly-img-con {
+  width: 50%;
+}
+
+.play-instantly-text-con {
+  width: 40%;
+  text-align: left;
+  margin-left: 10%;
+}
+.play-img-1 {
+  width: 80%;
+}
+.play-img-2-con {
+  width: 50%;
+}
+.play-img-2 {
+  width: 80%;
+  position: relative;
+  bottom: 12vw;
+  left: 23vw;
+}
