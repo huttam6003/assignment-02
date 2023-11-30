@@ -55,6 +55,15 @@
     bottom: 25vw;
     left: 52vw;
   }
+  /* All button section  */
+  .all-btn {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+  }
+  .btn-con {
+    font-size: 8px;
+    padding: 2px;
+  }
 }
 
 /* Online game section  */
@@ -74,5 +83,10 @@
     height: 90%;
     margin-bottom: 20px;
     border-radius: 10px;
+  }
+  /* all btn section  */
+  .all-btn {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
   }
 }

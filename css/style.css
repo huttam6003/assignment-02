@@ -186,3 +186,30 @@ main {
   bottom: 12vw;
   left: 23vw;
 }
+
+/* Button section style  */
+.all-btn {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+}
+.btn-con {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-con img {
+  width: 20%;
+}
+.btn-con:hover {
+  border-radius: 50px;
+  border: 1.5px solid #ff42a5;
+  color: #ff42a5;
+}
+.btn-con p {
+  margin-left: 20px;
+}
