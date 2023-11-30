@@ -213,3 +213,37 @@ main {
 .btn-con p {
   margin-left: 20px;
 }
+
+/* footer style  */
+footer {
+  margin-top: 100px;
+  background: #0b0223;
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+.story {
+  margin: 50px 0;
+}
+.story a {
+  text-decoration: none;
+  margin: 0 30px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.fa-brands {
+  margin: 0 30px;
+  font-size: 30px;
+}
+.terms {
+  margin: 50px 0;
+}
+.terms a {
+  text-decoration: none;
+  margin: 0 30px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+}
